@@ -1,0 +1,6 @@
+<div class="user-container">
+  <div *ngIf="user">
+    <strong>Usuario: </strong> <i>{{ user.name.first }} {{ user.name.last }}</i>
+  </div>
+  <div *ngIf="!user">Cargando...</div>
+</div>

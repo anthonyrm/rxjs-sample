@@ -1,0 +1,6 @@
+<div class="counter-container">
+  <h4>My counter</h4>
+  <button (click)="increment()">Incrementar</button>
+  <span class="counter-value">{{ this.counterService.count$ | async }}</span>
+  <button (click)="decrement()">Decrementar</button>
+</div>
